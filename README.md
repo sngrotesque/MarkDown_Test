@@ -22,7 +22,12 @@
 
 # Libpq文档（超简化版）
 
- - **PQconnectdb**  
-    : 建立与服务器的连接
+### PQconnectdb
+```cpp
+PGconn *PQconnectdb(const char *conninfo);
+```
+> 建立与数据库服务器的新连接。  
+>   
+> 此函数使用从字符串conninfo中获取的参数打开一个新的数据库连接。
 
 

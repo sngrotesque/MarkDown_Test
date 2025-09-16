@@ -30,4 +30,5 @@ PGconn *PQconnectdb(const char *conninfo);
 >   
 > 此函数使用从字符串conninfo中获取的参数打开一个新的数据库连接。
 
-
+我的世界，
+还在下雨

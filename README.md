@@ -19,3 +19,10 @@
    - content
 
 [`Github`](https://github.com)
+
+# Libpq文档（超简化版）
+
+ - **PQconnectdb**  
+    : 建立与服务器的连接
+
+
